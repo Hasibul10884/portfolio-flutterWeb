@@ -30,6 +30,14 @@ class portfolio extends StatelessWidget {
       appBar: AppBar(
         elevation: 0.0,
         backgroundColor: Colors.black,
+        title: Row(
+          children: [
+            CircleAvatar(
+              radius: 25,
+              backgroundColor: Colors.white,
+            )
+          ],
+        ) ,
       ),
     ) ;
   }
